@@ -1,0 +1,62 @@
+@* @{
+    ViewData["Title"] = "RGB_Color";
+} *@
+
+@model ColorInterpolationModel
+
+<link rel="stylesheet" href="site.css" type="text/css" />
+
+<table>
+<div class="text-center">
+    <p>A couple forms and some simple server-side logic -- learning basics of GET,POST, form data, parameters and model binding. 
+        Doing it all with ASP.NET MVC Core.</p>
+</div>
+</table>
+                        <form asp-controller ="ColorInterpolation" asp-action = "Color_Interpolation" method = "post">
+                            <tr align="center">
+                                <td>
+                                    <span>Color One</span>
+                                </td>
+                                <td>
+                                    <input asp-for="Color1" 
+                                        class="form-control" id = r>
+                            </td>            
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>Color Two</span>
+                                </td>
+                                <td>
+                                    <input asp-for="Color2" 
+                                        class="form-control" id = b>
+                                </td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>How many colors will the interpolation produce?</span>
+                                </td>
+                                <td>
+                                    <input asp-for="ColorCount"
+                                        class="form-control" id = g>
+                                </td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <input id="getColor" type="submit" value="Get Color" class="btn btn-outline-success">
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            </table>
+                        </form>
+
+@* 
+                         @if(Model != null)
+                            {
+                           
+                            <p> Thanks for the input! @Model</p>
+                          
+                            } *@

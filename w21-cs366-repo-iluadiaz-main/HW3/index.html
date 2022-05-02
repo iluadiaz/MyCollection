@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pokemon nature stat adjustment calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="jquery.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="bigWrapper">
+        <div id="top">
+            <h1 class=mainIdea>
+                Nature Stat change Calculator
+                </h1.mainIdea>
+        </div>
+
+        <nav id="navigationBar">
+
+            <div class="contains">
+
+                <div class="left1">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <table class="table borderless">
+                                <tbody>
+                                    <tr align="center" style=>
+                                        <td colspan="3">
+                                            <table class="table vert-mid borderless">
+                                                <tbody>
+
+                        </div>
+
+                        </tr>
+                        <form>
+                            <tr align="center">
+                                <td>
+                                    <span>Attack (ATK):</span>
+                                </td>
+                                <td>
+                                    <input type="number" id="ATK" size="3" maxlength="3" min="1" value=1
+                                        class="form-control positive-numeric-only">
+                                </td>
+
+                                <td>
+                                    <p class="ATKMOD" id=atkMod> - </p>
+                                </td>
+
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>Defense (DEF):</span>
+                                </td>
+                                <td>
+                                    <input id="DEF" type="number" size="3" maxlength="3" min="1" value=1
+                                        class="form-control positive-numeric-only">
+                                </td>
+
+                                <td>
+                                    <p class="DEFMOD" id=defMod> - </p>
+                                </td>
+
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>Special Attack (SPA):</span>
+                                </td>
+                                <td>
+                                    <input id="SPA" type="number" size="3" maxlength="3" min="1" value="1"
+                                        class="form-control positive-numeric-only">
+                                </td>
+
+                                <td>
+                                    <p class="SPECATKMOD" id=spcAtkMod> - </p>
+                                </td>
+
+                            </tr>
+
+
+                            <tr align="center">
+                                <td>
+                                    <span>Special Defense (SPD):</span>
+                                </td>
+                                <td>
+                                    <input id="SPD" type="number" size="3" maxlength="3" min="1" value="1"
+                                        class="form-control positive-numeric-only">
+                                </td>
+
+                                <td>
+                                    <p class="SPECDEFMOD" id=spcDefMod> - </p>
+                                </td>
+
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>Speed (SPE):</span>
+                                </td>
+                                <td>
+                                    <input id="SPE" type="number" size="3" maxlength="3" min="1" value="1"
+                                        class="form-control positive-numeric-only">
+                                </td>
+                                <td>
+                                    <p class="SPEMOD" id=speMod> - </p>
+                                </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            </td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>Select the nature you wish to test</span>
+                                    <select id="nature" class="nat">
+                                        <option value="1">Hardy (None)</option>
+                                        <option value="2">Lonely (+ATK -DEF) </option>
+                                        <option value="3">Brave (+ATK -SPE)</option>
+                                        <option value="4">Adamant (+ATK -SPA)</option>
+                                        <option value="5">Naughty (+ATK -SPD)</option>
+                                        <option value="6">Bold (+DEF -ATK)</option>
+                                        <option value="7">Docile (None)</option>
+                                        <option value="8">Relaxed (+DEF -SPE)</option>
+                                        <option value="9">Impish (+DEF -SPA)</option>
+                                        <option value="10">Lax (+DEF -SPD)</option>
+                                        <option value="11">Timid (+SPE -ATK)</option>
+                                        <option value="12">Hasty (+SPE -DEF)</option>
+                                        <option value="13">Serious (None)</option>
+                                        <option value="14">Jolly (+SPE -SPA)</option>
+                                        <option value="15">Naive (+SPE -SPD)</option>
+                                        <option value="16">Modest (+SPA -ATK)</option>
+                                        <option value="17">Mild (+SPA -DEF)</option>
+                                        <option value="18">Quiet (+SPA -SPE)</option>
+                                        <option value="19">Bashful (None)</option>
+                                        <option value="20">Rash (+SPA -SPD)</option>
+                                        <option value="21">Calm (+SPD -ATK)</option>
+                                        <option value="22">Gentle (+SPD -DEF)</option>
+                                        <option value="23">Sassy (+SPD -SPE)</option>
+                                        <option value="24">Careful (+SPD -SPA)</option>
+                                        <option value="25">Quirky (None)</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td>
+                                    <input id="updateStats" type="button" value="Update Stats" class="btn btn-primary">
+                                </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            <p class="mainIdea" id="suggestion"> Hello! </p>
+                        </form>
+                    </div>
+                </div>
+        </nav>
+
+
+        <script type="text/javascript" src="hw3.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

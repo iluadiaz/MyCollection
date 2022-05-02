@@ -1,0 +1,1447 @@
+{
+  "367Console.dll": {
+    "C:\\Users\\ivanl\\Desktop\\ClassLibraryProjects\\367Console\\Users.cs": {
+      "Users.Info.UserInfo": {
+        "System.String Users.Info.UserInfo::get_UserName()": {
+          "Lines": {
+            "11": 19
+          },
+          "Branches": []
+        },
+        "System.String Users.Info.UserInfo::get_Password()": {
+          "Lines": {
+            "12": 15
+          },
+          "Branches": []
+        },
+        "System.Boolean Users.Info.UserInfo::get_verified()": {
+          "Lines": {
+            "13": 11
+          },
+          "Branches": []
+        },
+        "System.Void Users.Info.UserInfo::.ctor()": {
+          "Lines": {
+            "10": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ivanl\\Desktop\\ClassLibraryProjects\\367Console\\VerifyUser.cs": {
+      "Users.Info.VerifyUserAccount": {
+        "System.Boolean Users.Info.VerifyUserAccount::verifyAccount(Users.Info.UserInfo,System.String)": {
+          "Lines": {
+            "10": 4,
+            "11": 4,
+            "13": 4,
+            "15": 4,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "21": 2,
+            "22": 2,
+            "23": 4
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 15,
+              "Offset": 34,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Boolean Users.Info.VerifyUserAccount::passwordChecker(Users.Info.UserInfo,System.String)": {
+          "Lines": {
+            "27": 4,
+            "28": 4,
+            "30": 4,
+            "32": 4,
+            "33": 2,
+            "35": 2,
+            "36": 4
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 32,
+              "Offset": 29,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ivanl\\Desktop\\ClassLibraryProjects\\367Console\\Pokemon.cs": {
+      "Pokemon.Info.PokemonManager": {
+        "System.Void Pokemon.Info.PokemonManager::UpdateStats()": {
+          "Lines": {
+            "36": 30,
+            "37": 30,
+            "38": 2,
+            "39": 2,
+            "40": 2,
+            "41": 28,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "46": 2,
+            "47": 26,
+            "48": 3,
+            "49": 3,
+            "50": 3,
+            "52": 3,
+            "53": 23,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "58": 1,
+            "59": 22,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "64": 1,
+            "65": 21,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 20,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 19,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "80": 18,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 17,
+            "86": 3,
+            "87": 3,
+            "88": 3,
+            "89": 3,
+            "90": 14,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "94": 1,
+            "95": 13,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "100": 12,
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 1,
+            "105": 11,
+            "106": 3,
+            "107": 3,
+            "108": 3,
+            "109": 3,
+            "110": 8,
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "114": 1,
+            "115": 7,
+            "116": 1,
+            "117": 1,
+            "118": 1,
+            "119": 1,
+            "120": 6,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "124": 1,
+            "125": 5,
+            "126": 1,
+            "127": 1,
+            "128": 1,
+            "129": 1,
+            "130": 4,
+            "131": 1,
+            "132": 1,
+            "133": 1,
+            "134": 1,
+            "135": 3,
+            "136": 1,
+            "137": 1,
+            "138": 1,
+            "139": 1,
+            "140": 2,
+            "141": 1,
+            "142": 1,
+            "143": 1,
+            "144": 1,
+            "145": 30
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 29
+            },
+            {
+              "Line": 37,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 29
+            },
+            {
+              "Line": 37,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 29
+            },
+            {
+              "Line": 37,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 29
+            },
+            {
+              "Line": 37,
+              "Offset": 17,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 35,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 53,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 71,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 94,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 37,
+              "Offset": 94,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 28
+            },
+            {
+              "Line": 41,
+              "Offset": 132,
+              "EndOffset": 134,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 2
+            },
+            {
+              "Line": 41,
+              "Offset": 132,
+              "EndOffset": 221,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 26
+            },
+            {
+              "Line": 47,
+              "Offset": 239,
+              "EndOffset": 241,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 3
+            },
+            {
+              "Line": 47,
+              "Offset": 239,
+              "EndOffset": 328,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 23
+            },
+            {
+              "Line": 53,
+              "Offset": 346,
+              "EndOffset": 348,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 53,
+              "Offset": 346,
+              "EndOffset": 435,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 22
+            },
+            {
+              "Line": 59,
+              "Offset": 455,
+              "EndOffset": 457,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 1
+            },
+            {
+              "Line": 59,
+              "Offset": 455,
+              "EndOffset": 544,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 21
+            },
+            {
+              "Line": 65,
+              "Offset": 564,
+              "EndOffset": 566,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 564,
+              "EndOffset": 653,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 20
+            },
+            {
+              "Line": 70,
+              "Offset": 673,
+              "EndOffset": 675,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 1
+            },
+            {
+              "Line": 70,
+              "Offset": 673,
+              "EndOffset": 762,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 19
+            },
+            {
+              "Line": 75,
+              "Offset": 782,
+              "EndOffset": 784,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 782,
+              "EndOffset": 871,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 18
+            },
+            {
+              "Line": 80,
+              "Offset": 891,
+              "EndOffset": 893,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 1
+            },
+            {
+              "Line": 80,
+              "Offset": 891,
+              "EndOffset": 980,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 17
+            },
+            {
+              "Line": 85,
+              "Offset": 1000,
+              "EndOffset": 1002,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 3
+            },
+            {
+              "Line": 85,
+              "Offset": 1000,
+              "EndOffset": 1089,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 14
+            },
+            {
+              "Line": 90,
+              "Offset": 1109,
+              "EndOffset": 1111,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 1
+            },
+            {
+              "Line": 90,
+              "Offset": 1109,
+              "EndOffset": 1198,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 13
+            },
+            {
+              "Line": 95,
+              "Offset": 1218,
+              "EndOffset": 1220,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 1
+            },
+            {
+              "Line": 95,
+              "Offset": 1218,
+              "EndOffset": 1307,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 12
+            },
+            {
+              "Line": 100,
+              "Offset": 1327,
+              "EndOffset": 1329,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 1
+            },
+            {
+              "Line": 100,
+              "Offset": 1327,
+              "EndOffset": 1416,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 11
+            },
+            {
+              "Line": 105,
+              "Offset": 1436,
+              "EndOffset": 1438,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 3
+            },
+            {
+              "Line": 105,
+              "Offset": 1436,
+              "EndOffset": 1525,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 8
+            },
+            {
+              "Line": 110,
+              "Offset": 1545,
+              "EndOffset": 1547,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 1
+            },
+            {
+              "Line": 110,
+              "Offset": 1545,
+              "EndOffset": 1634,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 7
+            },
+            {
+              "Line": 115,
+              "Offset": 1654,
+              "EndOffset": 1656,
+              "Path": 0,
+              "Ordinal": 38,
+              "Hits": 1
+            },
+            {
+              "Line": 115,
+              "Offset": 1654,
+              "EndOffset": 1743,
+              "Path": 1,
+              "Ordinal": 39,
+              "Hits": 6
+            },
+            {
+              "Line": 120,
+              "Offset": 1763,
+              "EndOffset": 1765,
+              "Path": 0,
+              "Ordinal": 40,
+              "Hits": 1
+            },
+            {
+              "Line": 120,
+              "Offset": 1763,
+              "EndOffset": 1852,
+              "Path": 1,
+              "Ordinal": 41,
+              "Hits": 5
+            },
+            {
+              "Line": 125,
+              "Offset": 1872,
+              "EndOffset": 1874,
+              "Path": 0,
+              "Ordinal": 42,
+              "Hits": 1
+            },
+            {
+              "Line": 125,
+              "Offset": 1872,
+              "EndOffset": 1961,
+              "Path": 1,
+              "Ordinal": 43,
+              "Hits": 4
+            },
+            {
+              "Line": 130,
+              "Offset": 1981,
+              "EndOffset": 1983,
+              "Path": 0,
+              "Ordinal": 44,
+              "Hits": 1
+            },
+            {
+              "Line": 130,
+              "Offset": 1981,
+              "EndOffset": 2070,
+              "Path": 1,
+              "Ordinal": 45,
+              "Hits": 3
+            },
+            {
+              "Line": 135,
+              "Offset": 2090,
+              "EndOffset": 2092,
+              "Path": 0,
+              "Ordinal": 46,
+              "Hits": 1
+            },
+            {
+              "Line": 135,
+              "Offset": 2090,
+              "EndOffset": 2176,
+              "Path": 1,
+              "Ordinal": 47,
+              "Hits": 2
+            },
+            {
+              "Line": 140,
+              "Offset": 2196,
+              "EndOffset": 2198,
+              "Path": 0,
+              "Ordinal": 48,
+              "Hits": 1
+            },
+            {
+              "Line": 140,
+              "Offset": 2196,
+              "EndOffset": 2280,
+              "Path": 1,
+              "Ordinal": 49,
+              "Hits": 30
+            }
+          ]
+        },
+        "System.String Pokemon.Info.PokemonManager::get_PokemonName()": {
+          "Lines": {
+            "146": 46
+          },
+          "Branches": []
+        },
+        "System.String Pokemon.Info.PokemonManager::get_Nature()": {
+          "Lines": {
+            "147": 468
+          },
+          "Branches": []
+        },
+        "System.String[] Pokemon.Info.PokemonManager::get_StatNames()": {
+          "Lines": {
+            "148": 238
+          },
+          "Branches": []
+        },
+        "System.Double[] Pokemon.Info.PokemonManager::get_Stats()": {
+          "Lines": {
+            "149": 716
+          },
+          "Branches": []
+        },
+        "System.Double Pokemon.Info.PokemonManager::get_HitPoints()": {
+          "Lines": {
+            "150": 31
+          },
+          "Branches": []
+        },
+        "System.Double Pokemon.Info.PokemonManager::get_Attack()": {
+          "Lines": {
+            "151": 32
+          },
+          "Branches": []
+        },
+        "System.Double Pokemon.Info.PokemonManager::get_Defense()": {
+          "Lines": {
+            "152": 31
+          },
+          "Branches": []
+        },
+        "System.Double Pokemon.Info.PokemonManager::get_SpecialAttack()": {
+          "Lines": {
+            "153": 31
+          },
+          "Branches": []
+        },
+        "System.Double Pokemon.Info.PokemonManager::get_SpecialDefense()": {
+          "Lines": {
+            "154": 31
+          },
+          "Branches": []
+        },
+        "System.Double Pokemon.Info.PokemonManager::get_Speed()": {
+          "Lines": {
+            "155": 31
+          },
+          "Branches": []
+        },
+        "System.String Pokemon.Info.PokemonManager::get_PokemonUse()": {
+          "Lines": {
+            "156": 35
+          },
+          "Branches": []
+        },
+        "System.Void Pokemon.Info.PokemonManager::.ctor(System.String,System.String,System.String[])": {
+          "Lines": {
+            "9": 30,
+            "10": 30,
+            "11": 420,
+            "12": 180,
+            "13": 180,
+            "14": 180,
+            "16": 30,
+            "17": 30,
+            "19": 30,
+            "21": 30,
+            "22": 30,
+            "23": 30,
+            "24": 30,
+            "25": 30,
+            "26": 30,
+            "28": 30,
+            "29": 30,
+            "30": 30,
+            "31": 30,
+            "32": 30,
+            "33": 30,
+            "34": 30
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 66,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 180
+            },
+            {
+              "Line": 11,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 30
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ivanl\\Desktop\\ClassLibraryProjects\\367Console\\PokemonUse.cs": {
+      "Pokemon.Info.PokemonUse": {
+        "System.String Pokemon.Info.PokemonUse::get_pokemonUse()": {
+          "Lines": {
+            "8": 17
+          },
+          "Branches": []
+        },
+        "System.String Pokemon.Info.PokemonUse::PokemonRoleAssign(Pokemon.Info.PokemonManager)": {
+          "Lines": {
+            "14": 24,
+            "15": 24,
+            "16": 288,
+            "17": 120,
+            "18": 120,
+            "19": 120,
+            "20": 24,
+            "21": 24,
+            "22": 24,
+            "23": 24,
+            "24": 24,
+            "26": 24,
+            "28": 24,
+            "29": 24,
+            "31": 24,
+            "32": 2,
+            "33": 2,
+            "36": 22,
+            "37": 2,
+            "38": 2,
+            "41": 20,
+            "42": 4,
+            "43": 4,
+            "46": 16,
+            "47": 2,
+            "48": 2,
+            "51": 14,
+            "52": 4,
+            "53": 4,
+            "56": 10,
+            "57": 3,
+            "58": 3,
+            "61": 7,
+            "62": 2,
+            "63": 2,
+            "66": 5,
+            "67": 2,
+            "68": 2,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "76": 0,
+            "77": 24
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 45,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 120
+            },
+            {
+              "Line": 16,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 24
+            },
+            {
+              "Line": 31,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5
+            },
+            {
+              "Line": 31,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 100,
+              "EndOffset": 102,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 90,
+              "EndOffset": 115,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 22
+            },
+            {
+              "Line": 31,
+              "Offset": 95,
+              "EndOffset": 115,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 22
+            },
+            {
+              "Line": 31,
+              "Offset": 100,
+              "EndOffset": 115,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 22
+            },
+            {
+              "Line": 31,
+              "Offset": 106,
+              "EndOffset": 115,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 22
+            },
+            {
+              "Line": 31,
+              "Offset": 120,
+              "EndOffset": 122,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 120,
+              "EndOffset": 135,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 22
+            },
+            {
+              "Line": 36,
+              "Offset": 137,
+              "EndOffset": 139,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 137,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 22
+            },
+            {
+              "Line": 36,
+              "Offset": 142,
+              "EndOffset": 144,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 22
+            },
+            {
+              "Line": 36,
+              "Offset": 146,
+              "EndOffset": 148,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 146,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 20
+            },
+            {
+              "Line": 36,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 20
+            },
+            {
+              "Line": 36,
+              "Offset": 155,
+              "EndOffset": 157,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 155,
+              "EndOffset": 164,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 20
+            },
+            {
+              "Line": 36,
+              "Offset": 142,
+              "EndOffset": 167,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 151,
+              "EndOffset": 167,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 172,
+              "EndOffset": 187,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 20
+            },
+            {
+              "Line": 41,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 4
+            },
+            {
+              "Line": 41,
+              "Offset": 191,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 18
+            },
+            {
+              "Line": 41,
+              "Offset": 196,
+              "EndOffset": 198,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 18
+            },
+            {
+              "Line": 41,
+              "Offset": 201,
+              "EndOffset": 203,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 6
+            },
+            {
+              "Line": 41,
+              "Offset": 201,
+              "EndOffset": 209,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 16
+            },
+            {
+              "Line": 41,
+              "Offset": 207,
+              "EndOffset": 209,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 16
+            },
+            {
+              "Line": 41,
+              "Offset": 212,
+              "EndOffset": 214,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 212,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 16
+            },
+            {
+              "Line": 41,
+              "Offset": 196,
+              "EndOffset": 226,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 4
+            },
+            {
+              "Line": 41,
+              "Offset": 207,
+              "EndOffset": 226,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 4
+            },
+            {
+              "Line": 41,
+              "Offset": 231,
+              "EndOffset": 233,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 4
+            },
+            {
+              "Line": 41,
+              "Offset": 231,
+              "EndOffset": 246,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 16
+            },
+            {
+              "Line": 46,
+              "Offset": 250,
+              "EndOffset": 252,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 2
+            },
+            {
+              "Line": 46,
+              "Offset": 250,
+              "EndOffset": 257,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 14
+            },
+            {
+              "Line": 46,
+              "Offset": 255,
+              "EndOffset": 257,
+              "Path": 0,
+              "Ordinal": 38,
+              "Hits": 14
+            },
+            {
+              "Line": 46,
+              "Offset": 260,
+              "EndOffset": 262,
+              "Path": 0,
+              "Ordinal": 40,
+              "Hits": 3
+            },
+            {
+              "Line": 46,
+              "Offset": 260,
+              "EndOffset": 268,
+              "Path": 1,
+              "Ordinal": 41,
+              "Hits": 14
+            },
+            {
+              "Line": 46,
+              "Offset": 266,
+              "EndOffset": 268,
+              "Path": 0,
+              "Ordinal": 42,
+              "Hits": 14
+            },
+            {
+              "Line": 46,
+              "Offset": 272,
+              "EndOffset": 274,
+              "Path": 0,
+              "Ordinal": 44,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 272,
+              "EndOffset": 281,
+              "Path": 1,
+              "Ordinal": 45,
+              "Hits": 14
+            },
+            {
+              "Line": 46,
+              "Offset": 255,
+              "EndOffset": 284,
+              "Path": 1,
+              "Ordinal": 39,
+              "Hits": 2
+            },
+            {
+              "Line": 46,
+              "Offset": 266,
+              "EndOffset": 284,
+              "Path": 1,
+              "Ordinal": 43,
+              "Hits": 2
+            },
+            {
+              "Line": 46,
+              "Offset": 289,
+              "EndOffset": 291,
+              "Path": 0,
+              "Ordinal": 46,
+              "Hits": 2
+            },
+            {
+              "Line": 46,
+              "Offset": 289,
+              "EndOffset": 304,
+              "Path": 1,
+              "Ordinal": 47,
+              "Hits": 14
+            },
+            {
+              "Line": 51,
+              "Offset": 307,
+              "EndOffset": 309,
+              "Path": 0,
+              "Ordinal": 48,
+              "Hits": 4
+            },
+            {
+              "Line": 51,
+              "Offset": 307,
+              "EndOffset": 320,
+              "Path": 1,
+              "Ordinal": 49,
+              "Hits": 10
+            },
+            {
+              "Line": 51,
+              "Offset": 325,
+              "EndOffset": 327,
+              "Path": 0,
+              "Ordinal": 50,
+              "Hits": 4
+            },
+            {
+              "Line": 51,
+              "Offset": 325,
+              "EndOffset": 340,
+              "Path": 1,
+              "Ordinal": 51,
+              "Hits": 10
+            },
+            {
+              "Line": 56,
+              "Offset": 343,
+              "EndOffset": 345,
+              "Path": 0,
+              "Ordinal": 52,
+              "Hits": 3
+            },
+            {
+              "Line": 56,
+              "Offset": 343,
+              "EndOffset": 356,
+              "Path": 1,
+              "Ordinal": 53,
+              "Hits": 7
+            },
+            {
+              "Line": 56,
+              "Offset": 361,
+              "EndOffset": 363,
+              "Path": 0,
+              "Ordinal": 54,
+              "Hits": 3
+            },
+            {
+              "Line": 56,
+              "Offset": 361,
+              "EndOffset": 373,
+              "Path": 1,
+              "Ordinal": 55,
+              "Hits": 7
+            },
+            {
+              "Line": 61,
+              "Offset": 376,
+              "EndOffset": 378,
+              "Path": 0,
+              "Ordinal": 56,
+              "Hits": 4
+            },
+            {
+              "Line": 61,
+              "Offset": 376,
+              "EndOffset": 384,
+              "Path": 1,
+              "Ordinal": 57,
+              "Hits": 5
+            },
+            {
+              "Line": 61,
+              "Offset": 382,
+              "EndOffset": 384,
+              "Path": 0,
+              "Ordinal": 58,
+              "Hits": 5
+            },
+            {
+              "Line": 61,
+              "Offset": 388,
+              "EndOffset": 390,
+              "Path": 0,
+              "Ordinal": 60,
+              "Hits": 3
+            },
+            {
+              "Line": 61,
+              "Offset": 393,
+              "EndOffset": 395,
+              "Path": 0,
+              "Ordinal": 62,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 388,
+              "EndOffset": 402,
+              "Path": 1,
+              "Ordinal": 61,
+              "Hits": 3
+            },
+            {
+              "Line": 61,
+              "Offset": 393,
+              "EndOffset": 402,
+              "Path": 1,
+              "Ordinal": 63,
+              "Hits": 3
+            },
+            {
+              "Line": 61,
+              "Offset": 382,
+              "EndOffset": 405,
+              "Path": 1,
+              "Ordinal": 59,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 410,
+              "EndOffset": 412,
+              "Path": 0,
+              "Ordinal": 64,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 410,
+              "EndOffset": 422,
+              "Path": 1,
+              "Ordinal": 65,
+              "Hits": 5
+            },
+            {
+              "Line": 66,
+              "Offset": 431,
+              "EndOffset": 433,
+              "Path": 0,
+              "Ordinal": 66,
+              "Hits": 2
+            },
+            {
+              "Line": 66,
+              "Offset": 431,
+              "EndOffset": 443,
+              "Path": 1,
+              "Ordinal": 67,
+              "Hits": 3
+            },
+            {
+              "Line": 71,
+              "Offset": 453,
+              "EndOffset": 455,
+              "Path": 0,
+              "Ordinal": 68,
+              "Hits": 3
+            },
+            {
+              "Line": 71,
+              "Offset": 453,
+              "EndOffset": 465,
+              "Path": 1,
+              "Ordinal": 69,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Pokemon.Info.PokemonUse::.ctor(Pokemon.Info.PokemonManager)": {
+          "Lines": {
+            "9": 13,
+            "10": 13,
+            "11": 13,
+            "12": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ivanl\\Desktop\\ClassLibraryProjects\\367Console\\TeamGenerator.cs": {
+      "Pokemon.Info.TeamGenerator": {
+        "System.String[] Pokemon.Info.TeamGenerator::get_Natures()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.String[] Pokemon.Info.TeamGenerator::get_PokemonNames()": {
+          "Lines": {
+            "10": 9
+          },
+          "Branches": []
+        },
+        "System.String[] Pokemon.Info.TeamGenerator::get_Stats()": {
+          "Lines": {
+            "11": 6
+          },
+          "Branches": []
+        },
+        "Pokemon.Info.PokemonManager Pokemon.Info.TeamGenerator::get_Pokemon()": {
+          "Lines": {
+            "12": 7
+          },
+          "Branches": []
+        },
+        "System.String Pokemon.Info.TeamGenerator::GetRandomNature()": {
+          "Lines": {
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3,
+            "25": 3
+          },
+          "Branches": []
+        },
+        "System.String Pokemon.Info.TeamGenerator::GetRandomName()": {
+          "Lines": {
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3
+          },
+          "Branches": []
+        },
+        "System.String[] Pokemon.Info.TeamGenerator::GetStatsForName(System.String)": {
+          "Lines": {
+            "34": 3,
+            "35": 3,
+            "36": 3,
+            "37": 3,
+            "38": 3,
+            "39": 3
+          },
+          "Branches": []
+        },
+        "Pokemon.Info.PokemonManager Pokemon.Info.TeamGenerator::GetRandomPokemon()": {
+          "Lines": {
+            "41": 3,
+            "42": 3,
+            "43": 3,
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3
+          },
+          "Branches": []
+        },
+        "System.Void Pokemon.Info.TeamGenerator::.ctor()": {
+          "Lines": {
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ivanl\\Desktop\\ClassLibraryProjects\\367Console\\Class1.cs": {
+      "_367Project.Program": {
+        "System.Void _367Project.Program::Main(System.String[])": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "367ProjLibrary.dll": {}
+}

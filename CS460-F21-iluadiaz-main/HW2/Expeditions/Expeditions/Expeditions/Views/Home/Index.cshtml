@@ -1,0 +1,46 @@
+﻿@model HomeViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<style>
+    <link rel="stylesheet" href="~/css/site.css"/>
+
+</style>
+
+<div id="bigWrapper">
+    <div id="top">
+        <h1 class="display-4" align="center">Climbing in the Himalaya</h1>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <th>Rank</th>
+        <th>Mountain</th>
+        <th> Height</th>
+        <th>First Climbed</th>
+        <th> # of Expeditions</th>
+    </tr>
+
+    @for(int i = 0; i < 15; i++)
+    { 
+        <tr>
+            <td>@Model.rank[i]</td>
+            <td>@Model.peaks[i].Name</td>
+            <td>@Model.peaks[i].Height</td>
+            <td>@Model.peaks[i].FirstAscentYear</td>
+            <td>@Model.peaks[i].Expeditions.Count</td>
+        </tr>
+    }
+
+</table>
+
+<form asp-controller="Create" asp-action="Create" method="get">
+    <tr align="center">
+        <td>
+            <button type="submit" class="btn btn-primary" align="center">Click here to add an Expedition!</button>
+        </td>
+        </tr>
+</form>

@@ -1,0 +1,83 @@
+@model Game.ViewModels.CharacterViewModel
+@* You have to decide on the model for this page. I've only put string here so it will compile and show a starting page.
+    Replace it with your chosen model.
+    This is normal Razor view but 2 parts of it are implemented with Javascript and AJAX. *@
+
+@{
+    ViewData["Title"] = "Character";
+}
+
+@if (Model == null)
+{
+    <h1 class="text-center mb-5 display-2">Character Not Found</h1>
+}
+else
+{
+ 
+<h1 class="text-center mb-5 display-2 border-bottom">@Model.selectedCharacter.Name</h1> @* Characters name goes here *@
+
+        <div class="row">
+            <!-- Image of character on the left -->
+            <div class="col">
+                <img src="/img/mask_image.jpg" alt="Placeholder image for game character" width="300">
+            </div>
+            <div class="col">
+                @*@foreach (Character c in Model)
+                    {*@
+                <!-- Character details in the center -->
+                <h2 class="display-4">@Model.selectedCharacter.CharacterClass.Name</h2> @* Characters class name goes here *@
+                <dl class="row">
+                    <dt class="col-sm-2 text-success">Level:</dt>
+                    <dd class="col-sm-1 text-success ml-2" id="level">@Model.selectedCharacter.Level</dd>             @* Level goes here *@
+                    <dt class="col-sm-2 text-primary">Health:</dt>
+                    <dd class="col-sm-1 text-primary ml-2">@Model.selectedCharacter.Health</dd>                        @* Health goes here *@
+                </dl>
+
+                <h3 class="border-bottom">Weapons</h3>
+                <ul class="list-unstyled">
+                    @* List of weapons and their counts, will be populated by Javascript *@
+                </ul>
+                @*}*@
+            </div>
+            <!-- List of all weapons in the database to the right -->
+            <div class="col">
+                <div class="bg-custom2 card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Add Weapons</h3>
+                        <ul class="list-unstyled">
+                            @* Finish code to create list of all weapons here *@
+                            @{
+                                // This is just so it will compile and run.  Delete this when you implement.
+                                IEnumerable<Weapon> weapons = new List<Weapon> {
+                                new Weapon {Name="Shovel"},
+                                new Weapon {Name="Axe"}
+                            };
+                            }
+                            @foreach (Weapon w in weapons)
+                            {
+                                <li><button type="button" class="weapon-button btn btn-success btn-sm mb-1">+ @w.Name</button> </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+
+@section Scripts {
+    <script>
+        $(document).ready(
+            function(){
+                console.log("Ready for Javascript!");
+            }
+        );
+
+        @* Put all your Javascript and AJAX directly here for this page:
+            - The list of all weapons is available in the CharacterController at Weapons(int? id)
+            - And to add a weapon, use AddWeapon(int? characterId, int? weaponId) also in the CharacterController
+        *@
+
+
+    </script>
+}

@@ -1,0 +1,65 @@
+@* @{
+    ViewData["Title"] = "RGB_Color";
+} *@
+
+@model RGBModel
+
+<link rel="stylesheet" href="site.css" type="text/css" />
+
+<table>
+<div class="text-center">
+    <p>A couple forms and some simple server-side logic -- learning basics of GET,POST, form data, parameters and model binding. 
+        Doing it all with ASP.NET MVC Core.</p>
+</div>
+</table>
+                        <form asp-controller ="RGBColor" asp-action = "RGB_Color" method = "get">
+                            <tr align="center">
+                                <td>
+                                    <span>Red</span>
+                                </td>
+                                <td>
+                                    <input asp-for="Red" size="3" maxlength="3"
+                                        class="form-control positive-numeric-only" id = r>
+                            </td>            
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>Blue</span>
+                                </td>
+                                <td>
+                                    <input asp-for="Blue" size="3" maxlength="3"
+                                        class="form-control positive-numeric-only" id = b>
+                                </td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <span>Green</span>
+                                </td>
+                                <td>
+                                    <input asp-for="Green" size="3" maxlength="3" span = "3"
+                                        class="form-control positive-numeric-only" id = g>
+                                </td>
+                            </tr>
+
+                            <tr align="center">
+                                <td>
+                                    <input id="getColor" type="submit" value="Get Color" class="btn btn-outline-success">
+                                </td>
+
+                            </tr>
+                            </tbody>
+                            </table>
+                        </form>
+
+
+                         @if(Model != null)
+                            {
+                  
+                              <p><span style = "background:@Model; color:@Model; font-size:55px">Color Generated Here </span></p>
+                 
+                            
+                            <p>The Hex color is: @Model</p>
+                            }
+

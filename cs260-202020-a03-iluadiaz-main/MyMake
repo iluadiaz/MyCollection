@@ -1,0 +1,17 @@
+all: assign3Stack assign3PriorityQueue
+
+assign3Stack: MakeDirectory
+	g++ -std=c++11 -g -o linux/assign3PriorityQueue.exe DataStream.cpp processPackets.cpp
+
+assign3PriorityQueue: MakeDirectory
+	g++ -std=c++11 -g -o linux/assign3Stack.exe htmlParse.cpp
+
+linux/assign3Stack.o: DataStream.cpp processPackets.cpp DataStream.h PriorityQueue.h
+
+linux/assign3PriorityQueue.o: hmtlParse.cpp stack.h
+
+MakeDirectory:
+	mkdir -p linux
+
+clean:
+	rm -rf linux

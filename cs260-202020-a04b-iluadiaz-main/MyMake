@@ -1,0 +1,13 @@
+all: assign4
+
+assign4: MakeDirectory
+	g++ -std=c++11 -g -o linux/assign4.exe main.cpp
+
+
+linux/assign4.o: main.cpp MySet.h
+
+MakeDirectory:
+	mkdir -p linux
+
+clean:
+	rm -rf linux

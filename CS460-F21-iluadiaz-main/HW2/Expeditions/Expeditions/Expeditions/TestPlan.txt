@@ -1,0 +1,5 @@
+1. I would have to develop the moqing for the database.
+2. I would have to generate some fake data.
+3. I would have to test all methods added to PeakRepository, and ExpeditionRepository.
+4. I must test the methods in my view models, such as the ParseIt method found in CreateViewModel.
+5. My test would include invalid input from the user, such as leaving the agencies entry empty, however in this case I would moq that by adding a blatantly invalid entry.

@@ -1,0 +1,6 @@
+all:
+    #Make a directory
+	mkdir -p linux
+
+    #build MyProgram
+	g++ -std=c++11 -g *.cpp -o linux/assign2.exe

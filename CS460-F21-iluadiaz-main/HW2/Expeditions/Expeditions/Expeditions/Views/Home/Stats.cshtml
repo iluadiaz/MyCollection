@@ -1,0 +1,85 @@
+﻿@model StatsViewModel
+@{
+    ViewBag.Title = "Statistics";
+}
+<h1></h1>
+
+<div id="bigWrapper">
+    <div id="top">
+        <h1 class=mainIdea>
+            Statistics
+            </h1.mainIdea>
+    </div>
+    <table class="table vert-mid borderless">
+        <tbody>
+
+</div>
+<form>
+
+    <tr align="left">
+        <td>
+            <span># of Expeditions</span>
+        </td>
+        <td>
+            @{
+                <p>@Model.ExpeditionsCount</p>
+            }
+
+        </td>
+
+    </tr>
+
+    <tr align="left">
+        <td>
+            <span># of Peaks </span>
+        </td>
+        <td>
+   
+        <p>@Model.climbedCount + (@Model.notClimbedCount not climbed)</p>
+            
+        </td>
+
+    </tr>
+
+    <tr align="left">
+        <td>
+            <span># of Peaks over 8000 meters </span>
+        </td>
+        <td>
+
+            <p>@Model.peaksOver8000</p>
+
+        </td>
+
+    </tr>
+
+
+    <tr align="left">
+        <td>
+            <span>Expeditions report using Oxygen</span>
+        </td>
+        <td>
+
+            <p>@Model.o2Used%</p>
+        </td>
+
+    </tr>
+
+    <tr align="left">
+        <td>
+            <span>Expeditions report citing death as a termination reason</span>
+        </td>
+        <td
+                <p>@Model.deathCount%</p>
+            
+
+        </td>
+    </tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+
+</form>
+
+

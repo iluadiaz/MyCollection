@@ -1,0 +1,74 @@
+﻿@model CreateViewModel
+@{
+    ViewData["Title"] = "Expeditions";
+}
+
+<h1 align="center">Submit a New Expedition</h1>
+<link rel="stylesheet" href="site.css" type="text/css" />
+
+<h1>
+    Fill in the form below to submit your recent expedition!
+</h1>
+
+@{
+    @using (Html.BeginForm("Confirmation", "Create", FormMethod.Post))
+    {
+
+        <table width="100%">
+            <a><img src="/Images/Ski2.PNG" width="1110" height="600" /></a>
+            <tr>
+            <tr align="center">
+                <td>
+                    <span>Which peak was climbed or attempted? </span>
+                </td>
+                <td>
+                    
+                    @Html.DropDownListFor(a => a.peakDropDownItemId, Model.peakDropDown, new { @class = "custom-select formControl" })
+
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td>
+                    <span>Trekking Agency Used</span>
+                </td>
+                <td>
+                    
+                    @Html.DropDownListFor(a => a.agencyId, Model.agencyDropDown, new { @class = "custom-select formControl" })
+
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td>
+                    <span>Date Expedition Started</span>
+                </td>
+                <td>
+                    @Html.EditorFor(a => a.dateToUpdate, new { htmlAttributes = new { @class = "datePicker" } })
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td>
+                    <span>Was O2 used?</span>
+                </td>
+                <td>
+                    
+                    @Html.DropDownListFor(a => a.o2Id, Model.o2DropDown, new { @class = "custom-select formControl" })
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td>
+                    <span>Termination reason</span>
+                </td>
+                <td>
+                    
+                    @Html.DropDownListFor(a => a.terminationId, Model.terminationDropDown, new { @class = "custom-select formControl" })
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit" />
+    }
+
+}

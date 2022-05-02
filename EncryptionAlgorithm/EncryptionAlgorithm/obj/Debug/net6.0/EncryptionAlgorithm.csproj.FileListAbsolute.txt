@@ -1,0 +1,15 @@
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\bin\Debug\net6.0\EncryptionAlgorithm.exe
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\bin\Debug\net6.0\EncryptionAlgorithm.deps.json
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\bin\Debug\net6.0\EncryptionAlgorithm.runtimeconfig.json
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\bin\Debug\net6.0\EncryptionAlgorithm.dll
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\bin\Debug\net6.0\EncryptionAlgorithm.pdb
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.csproj.AssemblyReference.cache
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.AssemblyInfoInputs.cache
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.AssemblyInfo.cs
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.dll
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\ref\EncryptionAlgorithm.dll
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.pdb
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\EncryptionAlgorithm.genruntimeconfig.cache
+C:\Users\ivanl\Desktop\EncryptionAlgorithm\EncryptionAlgorithm\obj\Debug\net6.0\refint\EncryptionAlgorithm.dll

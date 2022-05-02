@@ -1,0 +1,35 @@
+﻿@model CreateViewModel
+@{
+    ViewData["Title"] = "Expeditions";
+}
+
+<h1 align="center"> Thank You for the Submission!</h1>
+
+<div id="bigWrapper">
+    <div id="top">
+        <h1 center>
+            Here is the submitted data!
+        </h1>
+    </div>
+    </div>
+    <body>
+        <ol>
+            <li>
+                Peak name: @Model.expeditionToDb.Peak.Name
+            </li>
+            <li>
+                Start Date: @Model.dateFormatted
+            </li>
+            <li>
+                O2 used: @Model.expeditionToDb.OxygenUsed
+            </li>
+            <li>
+                Agency name: @Model.expeditionToDb.TrekkingAgency.Name
+            </li>
+            <li>
+                Reason for termination: @Model.expeditionToDb.TerminationReason
+            </li>
+
+        </ol>
+    </body>
+

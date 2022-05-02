@@ -1,0 +1,17 @@
+all: assign5Index assign5Tester
+
+assign5Index: MakeDirectory
+	g++ -std=c++11 -g -o linux/assign5Index.exe IndexBuilder.cpp IndexMap.cpp IndexRecord.cpp
+
+assign5Tester: MakeDirectory
+	g++ -std=c++11 -g -o linux/assign5Tester.exe IndexMap.cpp IndexRecord.cpp tester.cpp
+
+linux/assign5Index.o: IndexBuilder.cpp IndexMap.cpp IndexRecord.cpp IndexMap.h IndexRecord.h
+
+linux/assign5Tester.o: IndexMap.cpp IndexRecord.cpp tester.cpp IndexMap.h IndexRecord.h
+
+MakeDirectory:
+	mkdir -p linux
+
+clean:
+	rm -rf linux

@@ -1,0 +1,83 @@
+﻿@model __460A1.Models.Update
+@{
+    ViewBag.Title = "UpdateView";
+}
+
+<h1 align="center">Bike Speed Calculator</h1>
+<link rel="stylesheet" href="site.css" type="text/css" />
+
+<html>
+<body>
+    <a><img src="/Images/Bike.PNG" height="600" width="1000" /></a>
+    <table width="100%">
+        <tr>
+            <td width="45%" align="center">
+        <tr align="center">
+            <td>
+                <span>
+                    Enter your bike configuration and the rate of your pedal cadence to see how you
+                    can optimize your biking speeds!
+                </span>
+            </td>
+            <td>
+                <select>
+                    <option value="1">MPH</option>
+                    <option value="2">KPH </option>
+                </select>
+            </td>
+
+
+        </tr>
+        <tr>
+            <td>
+                @using (Html.BeginForm("/UpdateView", "Update", FormMethod.Post))
+                {
+
+                    <div class="form-group">
+                        <label for="frontChainSize">Front Chain Size</label>
+                        <input type="text" class=" form-control" id="frontChainSize" name="frontChainSize" value="@Model.frontChainSize" />
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="rearCogSize">Rear Cog Size</label>
+                        <input type="text" class=" form-control" id="rearCogSize" name="rearCogSize" value="@Model.rearCogSize" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="wheelCirc">Wheel Circumference</label>
+                        <input type="text" class=" form-control" id="wheelCirc" name="wheelCirc" value="@Model.wheelCirc" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pedalCadence">Pedal Cadence</label>
+                        <input type="text" class=" form-control" id="pedalCadence" name="pedalCadence" value="@Model.pedalCadence" />
+                    </div>
+                    <button type="submit" class="btn btn-info" id="generateTable" value="generateTable" name="generate">Generate Table</button>
+
+                    <table>
+                        @for (int i = 0; i < 4; i++)
+                        {
+                        <tr>
+                            @for (int j = 0; j < 50; j++)
+                            {
+
+                                <td>@Model.theTable[j, i]</td>
+                                @*if(i < 50 != true)
+                                {
+                                <td>@Model.theTable[1,i ]</td>
+                                }*@
+
+                            }
+                        </tr>
+                        }
+                    </table>
+
+                }
+            </td>
+        </tr>
+
+    </table>
+            </body>
+        </html>

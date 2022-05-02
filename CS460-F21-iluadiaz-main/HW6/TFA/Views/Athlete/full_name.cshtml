@@ -1,0 +1,32 @@
+﻿@model AthleteViewModel
+@{
+    ViewBag.Title = "Result List";
+}
+<div class="row justify-content-center">
+    <div class="col-auto">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th scope="col">Event</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Meet</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (RaceResultDisplay r in Model.resultList)
+                    {
+                        <tr>
+                            <th scope="row">@r.TrackEventName</th>
+                            <td>@r.TimeFormattedHHMMSS</td>
+                            <td>@r.MeetDateFormatted</td>
+                            <td>@r.MeetName</td>
+                        </tr>
+
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
